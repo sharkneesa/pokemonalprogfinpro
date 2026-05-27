@@ -42,4 +42,23 @@ vector<Location>locations={
     {10,"Coumarine Harbor"},
     {11,"Frost Cavern"}
 
-}
+};
+
+vector<Routes>route={
+
+    {"Vaniville Town","Santalune Forest","Land"},
+    {"Santalune Forest","Santalune City","Forest"},
+    {"Santalune City","Lumiose City","City"},
+    {"Lumiose City","Parfum Palace","Sacred"},
+    {"Lumiose City","Coumarine Harbor","Water"},
+    {"Coumarine Harbor","Frost Cavern","Frozen"},
+    {"Frost Cavern","Ambrette Coast","Rock"},
+    {"Glittering Cave","Cyllage Cliff","Mountain"},
+    {"Cyllage Cliff","Geosenge Ruins","Ruins"},
+    {"Geosenge Ruins","Tower of Mastery","Sacred"},
+    {"Ambrette Coast","Coumarine Harbor","Water"},
+    {"Santalune Forest","Glittering Cave","Forest"},
+    {"Santalune City","Cyllage Cliff","Mountain"},
+    {"Lumiose City","Geosenge Ruins","Ruins"},
+
+};
