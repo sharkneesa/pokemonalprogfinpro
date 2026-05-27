@@ -28,7 +28,7 @@ vector<Pokemon>pokemons={
 
 vector<Location>locations={
 
-    {0,"Vaniville Tow"},
+    {0,"Vaniville Town"},
     {1,"Santalune Forest"},
     {2,"Santalune City"},
     {3,"Lumiose City"},
@@ -43,7 +43,7 @@ vector<Location>locations={
 
 };
 
-vector<Routes>route={
+vector<Routes>routes={
 
     {"Vaniville Town","Santalune Forest","Land"},
     {"Santalune Forest","Santalune City","Forest"},
@@ -51,7 +51,7 @@ vector<Routes>route={
     {"Lumiose City","Parfum Palace","Sacred"},
     {"Lumiose City","Coumarine Harbor","Water"},
     {"Coumarine Harbor","Frost Cavern","Frozen"},
-    {"Frost Cavern","Ambrette Coast","Rock"},
+    {"Frost Cavern","Glittering Cave","Rock"},
     {"Glittering Cave","Cyllage Cliff","Mountain"},
     {"Cyllage Cliff","Geosenge Ruins","Ruins"},
     {"Geosenge Ruins","Tower of Mastery","Sacred"},

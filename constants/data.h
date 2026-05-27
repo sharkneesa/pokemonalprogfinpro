@@ -2,7 +2,7 @@
 #define DATA_POKE
 
 #include <vector>
-#include "models/structs.h"
+#include "../models/structs.h"
 
 using namespace std;
 
