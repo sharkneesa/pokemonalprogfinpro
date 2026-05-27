@@ -34,7 +34,7 @@ vector<Location>locations={
     {2,"Santalune City"},
     {3,"Lumiose City"},
     {4,"Parfum Palace"},
-    {5,"Glittering Cave"}
+    {5,"Glittering Cave"},
     {6,"Ambrette Coast"},
     {7,"Cyllage Cliff"},
     {8,"Geosenge Ruins"},
@@ -59,6 +59,6 @@ vector<Routes>route={
     {"Ambrette Coast","Coumarine Harbor","Water"},
     {"Santalune Forest","Glittering Cave","Forest"},
     {"Santalune City","Cyllage Cliff","Mountain"},
-    {"Lumiose City","Geosenge Ruins","Ruins"},
+    {"Lumiose City","Geosenge Ruins","Ruins"}
 
 };
