@@ -1,6 +1,5 @@
 #include <vector>
-#include "models/structs.h"
-#include "constants/data.h"
+#include "data.h"
 
 using namespace std;
 

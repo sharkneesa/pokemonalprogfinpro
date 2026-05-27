@@ -7,7 +7,6 @@
 using namespace std;
 
 extern vector<Pokemon>pokemons;
-extern vector<Trainer>trainers;
 extern vector<Location>locations;
 extern vector<Routes>routes;
 

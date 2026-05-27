@@ -1,6 +1,7 @@
 #ifndef STRUCT_POKE
 #define STRUCT_POKE
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -31,8 +32,8 @@ struct Location{
 
 struct Routes{
 
-    int from;
-    int to;
+    string from;
+    string to;
     string terrain;
 
 };
@@ -43,7 +44,7 @@ struct JourneyLog{
     string startLoc;
     string endLoc;
     vector<string> pokemonUsed;
-    
+
 };
 
 
