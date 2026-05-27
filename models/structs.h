@@ -37,6 +37,15 @@ struct Routes{
 
 };
 
+struct JourneyLog{
+
+    string journeyIndex;
+    string startLoc;
+    string endLoc;
+    vector<string> pokemonUsed;
+    
+};
+
 
 
 #endif
