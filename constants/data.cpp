@@ -27,3 +27,19 @@ vector<Pokemon>pokemons={
 
 };
 
+vector<Location>locations={
+
+    {0,"Vaniville Tow"},
+    {1,"Santalune Forest"},
+    {2,"Santalune City"},
+    {3,"Lumiose City"},
+    {4,"Parfum Palace"},
+    {5,"Glittering Cave"}
+    {6,"Ambrette Coast"},
+    {7,"Cyllage Cliff"},
+    {8,"Geosenge Ruins"},
+    {9,"Tower of Mastery"},
+    {10,"Coumarine Harbor"},
+    {11,"Frost Cavern"}
+
+}
