@@ -3,7 +3,7 @@
 
 void loadingScreen();
 void mainMenuShown();
-
+void pokedexMenuShow();
 
 
 #endif

@@ -8,7 +8,7 @@ using namespace std;
 void loadingScreen() {
 
   cout << "===============================\n";
-  cout << "+      6 P O K E M O N 7      +\n";
+  cout << "+      6 P O K È M O N 7      +\n";
   cout << "===============================\n";
   this_thread::sleep_for(chrono::seconds(1));
   cout << endl;
@@ -49,12 +49,12 @@ void loadingScreen() {
   cout << "WELCOME TRAINER!\n";
 };
 
-void mainMenuShow(){
+void mainMenuShown(){
 
   cout << endl;
 
   cout << "+---------------------------------+\n";
-  cout << "|        6 P O K E M O N 7        |\n";
+  cout << "|        6 P O K È M O N 7        |\n";
   cout << "|     KALOS TRAVEL NAVIGATION     |\n";
   cout << "+---------------------------------+\n";
   cout << "| [1] View Kalos Map              |\n";
@@ -63,6 +63,19 @@ void mainMenuShow(){
   cout << "| [4] Start Interactive Journey   |\n";
   cout << "| [5] Journey Log                 |\n";
   cout << "| [6] End Journey                 |\n";
+  cout << "+---------------------------------+\n";
+
+};
+
+void pokedexMenuShow(){
+
+   cout <<"+---------------------------------+\n";
+  cout << "|        6 P O K È M O N 7        |\n";
+  cout << "|          POKÈDEX MENU           |\n";
+  cout << "+---------------------------------+\n";
+  cout << "| [1] Search Pokémon by Name      |\n";
+  cout << "| [2] Sort by Pokémon Index       |\n";
+  cout << "| [3] Pokémon Type Tree           |\n";
   cout << "+---------------------------------+\n";
 
 };
