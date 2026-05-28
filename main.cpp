@@ -35,10 +35,10 @@ int main() {
       case 2:
 
         int choice2;
+        pokedexMenuShow();
 
         do{
 
-          pokedexMenuShow();
           cout << "Select Action: ";
           cin >> choice2;
           cout << endl;
@@ -61,7 +61,7 @@ int main() {
             cout << "Invalid Choice Try Again!\n";
           }
 
-        }while (choice2!=1&&choice2!=2&&choice2!=3);
+        }while (choice2!=1&&choice2!=2&&choice2!=3&&choice2!=4);
 
 
       break;

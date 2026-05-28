@@ -76,6 +76,7 @@ void pokedexMenuShow(){
   cout << "| [1] Search Pokémon by Name      |\n";
   cout << "| [2] Sort by Pokémon Index       |\n";
   cout << "| [3] Pokémon Type Tree           |\n";
+  cout << "| [4] Back to Main Menu           |\n";
   cout << "+---------------------------------+\n";
 
 };
