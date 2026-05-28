@@ -8,7 +8,8 @@ void sortAndDisplayByIndex(vector<Pokemon> &pokedex) {
   for (const auto &p : pokedex) {
     cout << p.index << " " << p.pokemonName << " [";
     for (size_t i = 0; i < p.types.size(); i++) {
-      if (i > 0) cout << "/";
+      if (i > 0)
+        cout << "/";
       cout << p.types[i];
     }
     cout << "]" << endl;

@@ -12,7 +12,8 @@ void searchByName(const vector<Pokemon> &pokedex, const string &query) {
     if (toLowerStr(p.pokemonName).find(lowerQuery) != string::npos) {
       cout << p.index << " " << p.pokemonName << " [";
       for (size_t i = 0; i < p.types.size(); i++) {
-        if (i > 0) cout << "/";
+        if (i > 0)
+          cout << "/";
         cout << p.types[i];
       }
       cout << "]" << endl;
