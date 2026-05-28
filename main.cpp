@@ -1,6 +1,5 @@
 #include "constants/data.h"
 #include "functions/graph.h"
-#include "functions/login.h"
 #include "functions/mapGraph.h"
 #include "functions/menu.h"
 #include "functions/pokemon.h"
@@ -57,11 +56,15 @@ int main() {
             groupAndDisplayByType(pokemons);
           }
 
+          else if(choice2==4){
+            cout<< "Returning to Main Menu...\n";
+          }
+
           else{
             cout << "Invalid Choice Try Again!\n";
           }
 
-        }while (choice2!=1&&choice2!=2&&choice2!=3&&choice2!=4);
+        }while (choice2!=4);
 
 
       break;
