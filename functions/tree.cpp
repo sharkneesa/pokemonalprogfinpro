@@ -11,9 +11,11 @@ void inorderDisplay(const Node *root) {
   for (Node *child : root->children) {
     cout << "[" << child->type << "]" << endl;
     for (const Pokemon &p : child->pokemonList) {
-      cout << "  " << p.index << " " << p.pokemonName << " [" << p.type1;
-      if (!p.type2.empty())
-        cout << "/" << p.type2;
+      cout << "  " << p.index << " " << p.pokemonName << " [";
+      for (size_t i = 0; i < p.types.size(); i++) {
+        if (i > 0) cout << "/";
+        cout << p.types[i];
+      }
       cout << "]" << endl;
     }
   }
@@ -35,8 +37,7 @@ void groupAndDisplayByType(const vector<Pokemon> &pokedex) {
   Node *root = new Node("Pokedex");
 
   for (size_t i = 0; i < pokedex.size(); i++) {
-    string types[] = {pokedex[i].type1, pokedex[i].type2};
-    for (const string &type : types) {
+    for (const string &type : pokedex[i].types) {
       if (type.empty())
         continue;
 
@@ -75,9 +76,11 @@ void groupAndDisplayByType(const vector<Pokemon> &pokedex) {
       if (toLowerStr(child->type) == lowerQuery) {
         cout << "[" << child->type << "]" << endl;
         for (const Pokemon &p : child->pokemonList) {
-          cout << "  " << p.index << " " << p.pokemonName << " [" << p.type1;
-          if (!p.type2.empty())
-            cout << "/" << p.type2;
+          cout << "  " << p.index << " " << p.pokemonName << " [";
+          for (size_t i = 0; i < p.types.size(); i++) {
+            if (i > 0) cout << "/";
+            cout << p.types[i];
+          }
           cout << "]" << endl;
         }
         found = true;
