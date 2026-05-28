@@ -61,7 +61,7 @@ void groupAndDisplayByType(const vector<Pokemon> &pokedex) {
   }
 
   string query;
-  cout << "Enter the type you want to view (e.g. 'Fire', or type 'All' for all "
+  cout << "Enter what Pokemon Type you want to view (type 'All' for all "
           "types): ";
   cin >> query;
   cout << endl;
