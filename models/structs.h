@@ -9,8 +9,7 @@ struct Pokemon{
 
     string pokemonName;
     string index;
-    string type1;
-    string type2;
+    vector<string> types;  
 
 };
 
