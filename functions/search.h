@@ -1,7 +1,6 @@
 #pragma once
 
 #include "../constants/data.h"
-#include <algorithm>
 #include <cctype>
 #include <iostream>
 #include <string>

@@ -1,8 +1,6 @@
 #pragma once
 
 #include "../models/structs.h"
-#include <algorithm>
-#include <iomanip>
 #include <iostream>
 #include <string>
 #include <vector>
