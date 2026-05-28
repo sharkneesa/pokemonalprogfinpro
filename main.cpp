@@ -29,6 +29,9 @@ int main() {
 
       case 1:
 
+        void showKalosMap();
+        void routeConnections();
+
       break;
 
       case 2:
@@ -44,7 +47,7 @@ int main() {
           if(choice2==1){
       
             string query;
-            cout << "Which Pokemon Would You Like to Search For: \n";
+            cout << "Which Pokemon Would You Like to Search For: ";
             cin >> query;
             searchByName(pokemons, query);
           }
