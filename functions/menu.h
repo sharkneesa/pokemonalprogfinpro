@@ -3,7 +3,7 @@
 
 void loadingScreen();
 void mainMenuShown();
-int menuChoice();
+
 
 
 #endif

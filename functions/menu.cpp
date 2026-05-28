@@ -20,6 +20,8 @@ void loadingScreen() {
   cout << "Building Region Map...\n";
   this_thread::sleep_for(chrono::seconds(1));
 
+  cout << endl;
+
   cout << "[--------------------] 0%\n";
   this_thread::sleep_for(chrono::milliseconds(250));
   cout << "[##------------------] 10%\n";
@@ -37,5 +39,31 @@ void loadingScreen() {
   cout << "[####################] 100%\n";
   this_thread::sleep_for(chrono::seconds(1));
 
+  cout << endl;
+
   cout << "LOADING SUCCESSFUL!\n";
+
+  cout << endl;
+  this_thread::sleep_for(chrono::seconds(1));
+
+  cout << "WELCOME TRAINER!\n";
 };
+
+void mainMenuShow(){
+
+  cout << endl;
+
+  cout << "+---------------------------------+\n";
+  cout << "|        6 P O K E M O N 7        |\n";
+  cout << "|     KALOS TRAVEL NAVIGATION     |\n";
+  cout << "+---------------------------------+\n";
+  cout << "| [1] View Kalos Map              |\n";
+  cout << "| [2] Pokédex                     |\n";
+  cout << "| [3] Find Shortest Travel Route  |\n";
+  cout << "| [4] Start Interactive Journey   |\n";
+  cout << "| [5] Journey Log                 |\n";
+  cout << "| [6] End Journey                 |\n";
+  cout << "+---------------------------------+\n";
+
+};
+
