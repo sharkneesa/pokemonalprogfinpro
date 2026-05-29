@@ -13,15 +13,6 @@ struct Pokemon{
 
 };
 
-struct Trainer{
-
-    string name;
-    string trainerID;
-    string pokePartner;
-    string location;
-
-};
-
 struct Location{
 
     int locIndex;

@@ -92,6 +92,16 @@ int main() {
 
       break;
 
+      case 6:
+        cout << "Farewell Trainer..." << endl;
+        break;
+
+
+      default:
+        cout << "Invalid choice. Please try again." << endl;
+        break;
+
+
 
     }
 
