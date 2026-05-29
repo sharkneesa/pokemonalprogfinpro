@@ -54,7 +54,7 @@ void mainMenuShown(){
   cout << endl;
 
   cout << "+---------------------------------+\n";
-  cout << "|        6 P O K È M O N 7        |\n";
+  cout << "|        6 P O K E M O N 7        |\n";
   cout << "|     KALOS TRAVEL NAVIGATION     |\n";
   cout << "+---------------------------------+\n";
   cout << "| [1] View Kalos Map              |\n";
@@ -70,7 +70,7 @@ void mainMenuShown(){
 void pokedexMenuShow(){
 
    cout <<"+---------------------------------+\n";
-  cout << "|        6 P O K È M O N 7        |\n";
+  cout << "|        6 P O K E M O N 7        |\n";
   cout << "|          POKÈDEX MENU           |\n";
   cout << "+---------------------------------+\n";
   cout << "| [1] Search Pokémon by Name      |\n";

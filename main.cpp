@@ -26,7 +26,7 @@ int main() {
     cout << endl;
 
     switch(choice){
-
+      
       case 1:
 
         void showKalosMap();
