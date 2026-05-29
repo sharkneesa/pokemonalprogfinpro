@@ -1,5 +1,6 @@
 #include "dfs.h"
 #include "../constants/data.h"
+#include "travelLog.h"re
 
 #include <iostream>
 #include <iomanip>
@@ -400,6 +401,9 @@ void dfsMenu() {
 
             cout << "Terrain: " << journeySteps[i].terrain << endl;
             cout << "Pokemon Used: " << journeySteps[i].pokemonUsed << endl;
+
         }
+
+        saveJourneyLog(locations[startId].locName, destinationLocation, journeySteps);
     }
 }

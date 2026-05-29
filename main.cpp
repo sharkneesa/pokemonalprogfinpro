@@ -6,6 +6,7 @@
 #include "functions/search.h"
 #include "functions/sort.h"
 #include "functions/tree.h"
+#include "functions/travelLog.h"
 #include <iostream>
 #include <chrono>
 #include <thread>
@@ -85,6 +86,8 @@ int main() {
       break;
 
       case 5:
+
+      travelLogMenu();
 
       break;
 
