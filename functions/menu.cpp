@@ -8,7 +8,7 @@ using namespace std;
 void loadingScreen() {
 
   cout << "===============================\n";
-  cout << "+      6 P O K È M O N 7      +\n";
+  cout << "+      6 P O K E M O N 7      +\n";
   cout << "===============================\n";
   this_thread::sleep_for(chrono::seconds(1));
   cout << endl;
