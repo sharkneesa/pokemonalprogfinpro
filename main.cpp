@@ -76,7 +76,7 @@ int main() {
 
       case 3:
 
-      bfsMenu();
+        bfsMenu();
 
       break;
 
@@ -88,7 +88,7 @@ int main() {
 
       case 5:
 
-      travelLogMenu();
+        travelLogMenu();
 
       break;
 
