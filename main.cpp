@@ -1,8 +1,7 @@
 #include "constants/data.h"
-#include "functions/graph.h"
+#include "functions/dfs.h"
 #include "functions/mapGraph.h"
 #include "functions/menu.h"
-#include "functions/pokemon.h"
 #include "functions/search.h"
 #include "functions/sort.h"
 #include "functions/tree.h"
@@ -26,11 +25,11 @@ int main() {
     cout << endl;
 
     switch(choice){
-      
+
       case 1:
 
-        void showKalosMap();
-        void routeConnections();
+        showKalosMap();
+        routeConnections();
 
       break;
 
@@ -77,6 +76,8 @@ int main() {
       break;
 
       case 4:
+
+        dfsMenu();
 
       break;
 

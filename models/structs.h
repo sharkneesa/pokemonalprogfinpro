@@ -46,6 +46,13 @@ struct JourneyLog{
 
 };
 
+struct JourneyStep {
+    string fromLocation;
+    string toLocation;
+    string terrain;
+    string pokemonUsed;
+};
+
 
 
 #endif
