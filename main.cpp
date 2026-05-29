@@ -18,9 +18,10 @@ int main() {
   int choice;
 
   loadingScreen();
-  mainMenuShown();
   
   do{
+
+    mainMenuShown();
 
     cout << "Select Action: ";
     cin >> choice;

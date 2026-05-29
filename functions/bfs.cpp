@@ -154,14 +154,14 @@ void bfsMenu() {
 
     cout << "BFS Shortest Travel Route" << endl;
 
-    cout << "Tip: View the Kalos Map first to check each location ID." << endl;
+    cout << "Tip: View the Kalos Map first to check each location ID which is the number next to the location name." << endl;
 
     printLocationListBFS();
 
-    cout << "Enter Starting Location ID: ";
+    cout << "Enter Starting Location ID (number near the location name): ";
     cin >> startId;
 
-    cout << "Enter Destination Location ID: ";
+    cout << "Enter Destination Location ID (number near the location name): ";
     cin >> endId;
 
     int n = (int)locations.size();

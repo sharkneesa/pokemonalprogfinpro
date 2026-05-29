@@ -1,6 +1,6 @@
 #include "dfs.h"
 #include "../constants/data.h"
-#include "travelLog.h"re
+#include "travelLog.h"
 
 #include <iostream>
 #include <iomanip>
@@ -219,10 +219,10 @@ void dfsMenu() {
         cout << "[" << locations[i].locIndex << "] " << locations[i].locName << endl;
     }
 
-    cout << "\nChoose Starting Location ID: ";
+    cout << "\nChoose Starting Location ID (number near the location name): ";
     cin >> startId;
 
-    cout << "Choose Destination Location ID: ";
+    cout << "Choose Destination Location ID (number near the location name): ";
     cin >> destinationId;
 
     int n = (int)locations.size();
