@@ -1,5 +1,5 @@
-#ifndef DFS_H
-#define DFS_H
+#ifndef DFS_POKE
+#define DFS_POKE
 
 #include "../models/structs.h"
 #include <string>

@@ -1,5 +1,6 @@
 #include "constants/data.h"
 #include "functions/dfs.h"
+#include "functions/bfs.h"
 #include "functions/mapGraph.h"
 #include "functions/menu.h"
 #include "functions/search.h"
@@ -72,6 +73,8 @@ int main() {
       break;
 
       case 3:
+
+      bfsMenu();
 
       break;
 
